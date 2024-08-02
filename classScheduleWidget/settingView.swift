@@ -1,8 +1,18 @@
-//
-//  SettingView.swift
-//  classScheduleWidget
-//
-//  Created by 游尚諺 on 2024/4/14.
-//
+import SwiftUI
+import SwiftData
 
-import Foundation
+struct SettingView: View {
+    var body: some View {
+        VStack {
+            Text("test")
+            Text("test")
+            
+            Spacer()
+        }
+    }
+}
+
+#Preview {
+    SettingView()
+        .modelContainer(for: Item.self, inMemory: true)
+}

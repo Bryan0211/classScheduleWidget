@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 
+/*--------APP入口--------*/
 @main
 struct classScheduleWidgetApp: App {
     var sharedModelContainer: ModelContainer = {

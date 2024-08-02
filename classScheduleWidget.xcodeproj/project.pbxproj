@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930D437C2BF9E64A009D92E5 /* DailyClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D437B2BF9E64A009D92E5 /* DailyClassView.swift */; };
+		930DFFC72BFB89EA00EB8584 /* classViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930DFFC62BFB89EA00EB8584 /* classViewModelController.swift */; };
+		936343F12BFCE8900026B5F2 /* ClassItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936343F02BFCE8900026B5F2 /* ClassItemView.swift */; };
+		936541DD2C030BA800E3138A /* ClassTimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936541DC2C030BA800E3138A /* ClassTimetableView.swift */; };
+		939A0F452BCD69FA00F7DCE2 /* classViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A0F442BCD69FA00F7DCE2 /* classViewModel.swift */; };
+		93B50B522BCBB1E900C43F69 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B50B512BCBB1E900C43F69 /* testView.swift */; };
+		93B50B542BCBBA7200C43F69 /* settingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B50B532BCBBA7200C43F69 /* settingView.swift */; };
+		93B50B562BCBD53B00C43F69 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B50B552BCBD53B00C43F69 /* ClassView.swift */; };
 		93C853492BC82ABD004CB956 /* classScheduleWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C853482BC82ABD004CB956 /* classScheduleWidgetApp.swift */; };
 		93C8534B2BC82ABD004CB956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8534A2BC82ABD004CB956 /* ContentView.swift */; };
 		93C8534D2BC82ABD004CB956 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8534C2BC82ABD004CB956 /* Item.swift */; };
@@ -23,6 +31,9 @@
 		93C853782BC82BBA004CB956 /* WidgetIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C853772BC82BBA004CB956 /* WidgetIntent.swift */; };
 		93C8537A2BC83182004CB956 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C853792BC83182004CB956 /* extension.swift */; };
 		93C8537B2BC83182004CB956 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C853792BC83182004CB956 /* extension.swift */; };
+		93D002C02C0DADF400FBB28D /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D002BF2C0DADF400FBB28D /* AppExtension.swift */; };
+		93D002C32C0DAE3000FBB28D /* WidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D002C12C0DAE0200FBB28D /* WidgetExtension.swift */; };
+		93D002C42C0E027A00FBB28D /* classViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A0F442BCD69FA00F7DCE2 /* classViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +61,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		930D437B2BF9E64A009D92E5 /* DailyClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyClassView.swift; sourceTree = "<group>"; };
+		930DFFC62BFB89EA00EB8584 /* classViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classViewModelController.swift; sourceTree = "<group>"; };
+		936343F02BFCE8900026B5F2 /* ClassItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassItemView.swift; sourceTree = "<group>"; };
+		936541DC2C030BA800E3138A /* ClassTimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimetableView.swift; sourceTree = "<group>"; };
+		939A0F3F2BCCD82800F7DCE2 /* classScheduleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = classScheduleWidget.entitlements; sourceTree = "<group>"; };
+		939A0F402BCCD9FC00F7DCE2 /* showClassWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = showClassWidgetExtension.entitlements; sourceTree = "<group>"; };
+		939A0F412BCD165200F7DCE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		939A0F442BCD69FA00F7DCE2 /* classViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classViewModel.swift; sourceTree = "<group>"; };
+		93B50B512BCBB1E900C43F69 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		93B50B532BCBBA7200C43F69 /* settingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingView.swift; sourceTree = "<group>"; };
+		93B50B552BCBD53B00C43F69 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		93C853452BC82ABD004CB956 /* classScheduleWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classScheduleWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C853482BC82ABD004CB956 /* classScheduleWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classScheduleWidgetApp.swift; sourceTree = "<group>"; };
 		93C8534A2BC82ABD004CB956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +89,8 @@
 		93C853762BC82B85004CB956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		93C853772BC82BBA004CB956 /* WidgetIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetIntent.swift; sourceTree = "<group>"; };
 		93C853792BC83182004CB956 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		93D002BF2C0DADF400FBB28D /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		93D002C12C0DAE0200FBB28D /* WidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,8 @@
 		93C8533C2BC82ABD004CB956 = {
 			isa = PBXGroup;
 			children = (
+				939A0F412BCD165200F7DCE2 /* README.md */,
+				939A0F402BCCD9FC00F7DCE2 /* showClassWidgetExtension.entitlements */,
 				93C853792BC83182004CB956 /* extension.swift */,
 				93C853472BC82ABD004CB956 /* classScheduleWidget */,
 				93C853622BC82AF7004CB956 /* showClassWidget */,
@@ -112,9 +138,19 @@
 		93C853472BC82ABD004CB956 /* classScheduleWidget */ = {
 			isa = PBXGroup;
 			children = (
+				939A0F3F2BCCD82800F7DCE2 /* classScheduleWidget.entitlements */,
 				93C853762BC82B85004CB956 /* Info.plist */,
+				93D002BF2C0DADF400FBB28D /* AppExtension.swift */,
 				93C853482BC82ABD004CB956 /* classScheduleWidgetApp.swift */,
 				93C8534A2BC82ABD004CB956 /* ContentView.swift */,
+				936541DC2C030BA800E3138A /* ClassTimetableView.swift */,
+				93B50B552BCBD53B00C43F69 /* ClassView.swift */,
+				930D437B2BF9E64A009D92E5 /* DailyClassView.swift */,
+				936343F02BFCE8900026B5F2 /* ClassItemView.swift */,
+				93B50B532BCBBA7200C43F69 /* settingView.swift */,
+				93B50B512BCBB1E900C43F69 /* testView.swift */,
+				939A0F442BCD69FA00F7DCE2 /* classViewModel.swift */,
+				930DFFC62BFB89EA00EB8584 /* classViewModelController.swift */,
 				93C8534C2BC82ABD004CB956 /* Item.swift */,
 				93C8534E2BC82ABE004CB956 /* Assets.xcassets */,
 				93C853502BC82ABE004CB956 /* Preview Content */,
@@ -142,6 +178,7 @@
 		93C853622BC82AF7004CB956 /* showClassWidget */ = {
 			isa = PBXGroup;
 			children = (
+				93D002C12C0DAE0200FBB28D /* WidgetExtension.swift */,
 				93C853632BC82AF7004CB956 /* showClassWidgetBundle.swift */,
 				93C853652BC82AF7004CB956 /* showClassWidget.swift */,
 				93C853772BC82BBA004CB956 /* WidgetIntent.swift */,
@@ -210,7 +247,7 @@
 				};
 			};
 			buildConfigurationList = 93C853402BC82ABD004CB956 /* Build configuration list for PBXProject "classScheduleWidget" */;
-			compatibilityVersion = "Xcode 15.3";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -253,10 +290,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B50B522BCBB1E900C43F69 /* testView.swift in Sources */,
 				93C8534B2BC82ABD004CB956 /* ContentView.swift in Sources */,
 				93C8534D2BC82ABD004CB956 /* Item.swift in Sources */,
+				936541DD2C030BA800E3138A /* ClassTimetableView.swift in Sources */,
+				93B50B562BCBD53B00C43F69 /* ClassView.swift in Sources */,
+				93B50B542BCBBA7200C43F69 /* settingView.swift in Sources */,
+				930D437C2BF9E64A009D92E5 /* DailyClassView.swift in Sources */,
 				93C853742BC82B6E004CB956 /* Intents.intentdefinition in Sources */,
 				93C8537A2BC83182004CB956 /* extension.swift in Sources */,
+				93D002C02C0DADF400FBB28D /* AppExtension.swift in Sources */,
+				939A0F452BCD69FA00F7DCE2 /* classViewModel.swift in Sources */,
+				930DFFC72BFB89EA00EB8584 /* classViewModelController.swift in Sources */,
+				936343F12BFCE8900026B5F2 /* ClassItemView.swift in Sources */,
 				93C853492BC82ABD004CB956 /* classScheduleWidgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +314,10 @@
 				93C853782BC82BBA004CB956 /* WidgetIntent.swift in Sources */,
 				93C853642BC82AF7004CB956 /* showClassWidgetBundle.swift in Sources */,
 				93C853662BC82AF7004CB956 /* showClassWidget.swift in Sources */,
+				93D002C42C0E027A00FBB28D /* classViewModel.swift in Sources */,
 				93C8537B2BC83182004CB956 /* extension.swift in Sources */,
 				93C853752BC82B6E004CB956 /* Intents.intentdefinition in Sources */,
+				93D002C32C0DAE3000FBB28D /* WidgetExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -393,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -409,6 +457,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = classScheduleWidget/classScheduleWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"classScheduleWidget/Preview Content\"";
@@ -422,7 +471,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INTENTS_CODEGEN_LANGUAGE = Swift;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +494,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = classScheduleWidget/classScheduleWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"classScheduleWidget/Preview Content\"";
@@ -458,7 +508,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INTENTS_CODEGEN_LANGUAGE = Swift;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = showClassWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4493B2X8J7;
@@ -487,7 +538,7 @@
 				INFOPLIST_FILE = showClassWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = showClassWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = showClassWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4493B2X8J7;
@@ -515,7 +567,7 @@
 				INFOPLIST_FILE = showClassWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = showClassWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

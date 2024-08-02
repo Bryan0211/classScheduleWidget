@@ -45,11 +45,11 @@
 						<key>INIntentParameterMetadataDefaultValue</key>
 						<true/>
 						<key>INIntentParameterMetadataFalseDisplayName</key>
-						<string>bbb</string>
+						<string>false</string>
 						<key>INIntentParameterMetadataFalseDisplayNameID</key>
 						<string>KbsuRH</string>
 						<key>INIntentParameterMetadataTrueDisplayName</key>
-						<string>aaa</string>
+						<string>true</string>
 						<key>INIntentParameterMetadataTrueDisplayNameID</key>
 						<string>4BZuMP</string>
 					</dict>

@@ -1,7 +1,7 @@
 import SwiftUI
 import SwiftData
 
-struct TestView: View {
+struct testView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
@@ -49,6 +49,6 @@ struct TestView: View {
 }
 
 #Preview {
-    TestView()
+    testView()
         .modelContainer(for: Item.self, inMemory: true)
 }

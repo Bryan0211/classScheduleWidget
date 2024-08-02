@@ -4,6 +4,6 @@ import SwiftUI
 @main
 struct showClassWidgetBundle: WidgetBundle {
     var body: some Widget {
-        showClassWidget()
+        ClassScheduleWidget()
     }
 }

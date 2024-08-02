@@ -2,48 +2,36 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var selection = 2
+    @StateObject var viewModel = ScheduleViewModel()
+    
+    // 修改UITabBar的底色
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor(red:248/255, green: 248/255, blue: 248/255, alpha: 1.0)
+    }
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
+        TabView(selection:$selection) {
+            ClassTimetableView()
+                .tabItem {
+                    Label("整週課表", systemImage: "calendar")
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                .tag(1)
+                .environmentObject(viewModel)
+            
+            ClassView()
+                .tabItem {
+                    Label("自訂課表", systemImage: "calendar.day.timeline.left")
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+                .tag(2)
+                .environmentObject(viewModel)
+            
+            SettingView()
+                .tabItem {
+                    Label("設定", systemImage: "gearshape.2")
                 }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+                .tag(3)
+                //.environmentObject(viewModel)
         }
     }
 }
