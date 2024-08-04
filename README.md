@@ -36,10 +36,10 @@ git clone https://github.com/your-username/class-schedule-widget-app.git
 
 ## 文檔
 
-- 技術架構 (ARCHITECTURE.md)
-- 開發指南 (DEVELOPMENT.md)
-- 用戶手冊 (USER_GUIDE.md)
-- README.md
+- [README.md](./README.md)
+- [開發指南 (DEVELOPMENT.md)](./DEVELOPMENT.md)
+- [技術架構 (ARCHITECTURE.md)](./ARCHITECTURE.md)
+- [用戶手冊 (USER_GUIDE.md)](./USER_GUIDE.md)
 
 ## 貢獻
 
