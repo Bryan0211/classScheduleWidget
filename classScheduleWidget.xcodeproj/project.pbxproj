@@ -67,8 +67,12 @@
 		936541DC2C030BA800E3138A /* ClassTimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimetableView.swift; sourceTree = "<group>"; };
 		939A0F3F2BCCD82800F7DCE2 /* classScheduleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = classScheduleWidget.entitlements; sourceTree = "<group>"; };
 		939A0F402BCCD9FC00F7DCE2 /* showClassWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = showClassWidgetExtension.entitlements; sourceTree = "<group>"; };
-		939A0F412BCD165200F7DCE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		939A0F412BCD165200F7DCE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.documentation.markup; };
 		939A0F442BCD69FA00F7DCE2 /* classViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classViewModel.swift; sourceTree = "<group>"; };
+		93A8DADF2C5F554C0063B1D3 /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
+		93A8DAE02C5F56040063B1D3 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		93A8DAE12C5F56D30063B1D3 /* DEVELOPMENT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEVELOPMENT.md; sourceTree = "<group>"; };
+		93A8DAE22C5F57620063B1D3 /* USER_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = USER_GUIDE.md; sourceTree = "<group>"; };
 		93B50B512BCBB1E900C43F69 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		93B50B532BCBBA7200C43F69 /* settingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingView.swift; sourceTree = "<group>"; };
 		93B50B552BCBD53B00C43F69 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
@@ -117,6 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				939A0F412BCD165200F7DCE2 /* README.md */,
+				93A8DAE12C5F56D30063B1D3 /* DEVELOPMENT.md */,
+				93A8DADF2C5F554C0063B1D3 /* ARCHITECTURE.md */,
+				93A8DAE22C5F57620063B1D3 /* USER_GUIDE.md */,
+				93A8DAE02C5F56040063B1D3 /* CONTRIBUTING.md */,
 				939A0F402BCCD9FC00F7DCE2 /* showClassWidgetExtension.entitlements */,
 				93C853792BC83182004CB956 /* extension.swift */,
 				93C853472BC82ABD004CB956 /* classScheduleWidget */,
