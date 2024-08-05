@@ -25,13 +25,13 @@ git clone https://github.com/your-username/class-schedule-widget-app.git
 專案的主要組件如下：
 
 - `classScheduleWidgetApp.swift`: APP的入口點
-- `ContentView.swift`: 主要的內容視圖
+- `ContentView.swift`: 主要的內容視圖，控制3個頁面
 - `ClassTimetableView.swift`: 顯示整週課程表的視圖
 - `ClassView.swift`: 顯示每日課程列表的視圖
 - `DailyClassView.swift`: 顯示特定日期課程的詳細視圖
 - `ClassItemView.swift`: 用於編輯單個課程項目的視圖
 - `showClassWidget.swift`: Widget 相關的代碼
-- `classViewModel.swift`: 包含 ViewModel 邏輯
+- `classViewModel.swift`: 包含 Userscript的Model 邏輯
 - `extension.swift`: 包含擴展方法和自定義類型
 
 ## 開發流程
